@@ -4,9 +4,12 @@ import time
 from ei_classifier import *
 
 # Initialize camera
+width = 96                            # Width of frame (pixels)
+height = 96
 sensor.reset()
 sensor.set_pixformat(sensor.RGB565)
-sensor.set_framesize(sensor.QVGA)  # 320x240
+sensor.set_framesize(sensor.QVGA)
+sensor.set_windowing(width, height)   # Crop sensor frame to this resolution
 sensor.skip_frames(time=2000)
 
 clock = time.clock()
