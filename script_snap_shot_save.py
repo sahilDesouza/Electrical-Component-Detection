@@ -2,7 +2,7 @@
 # Copyright (c) 2013-2023 OpenMV LLC. All rights reserved.
 # https://github.com/openmv/openmv/blob/master/LICENSE
 #
-# Snapshot Example
+# Snapshot for data set collection
 #
 # Note: You will need an SD card to run this example.
 # You can use your OpenMV Cam to save image files.
